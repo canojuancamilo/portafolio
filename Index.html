@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan camilo cano vargas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="sidebar-nav visible-lg visible-md">
+            <div class="text-center">
+                <img class="fotoPerfil img-fluid" src="Imagenes/perfil.jpeg" />
+            </div>
+            <ul>
+                <li><a href="#camilo">CAMILO</a></li>
+                <li><a href="#acerca-de">SOBRE MI</a></li>
+                <li><a href="#portafolio">PORTAFOLIO</a></li>
+                <li><a href="#educacion">EDUCACIÓN</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-sm visible-xs" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#" style="padding: 2px 15px;">
+                        <img src="Imagenes/perfil.jpeg" alt="Logo" class="img-responsive fotoPerfil">
+                    </a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#camilo" class="opcionActiva" onclick="cerrarMenu()">CAMILO</a></li>
+                        <li><a href="#acerca-de" onclick="cerrarMenu()">SOBRE MI</a></li>
+                        <li><a href="#servicios" onclick="cerrarMenu()">PORTAFOLIO</a></li>
+                        <li><a href="#contacto" onclick="cerrarMenu()">EDUCACIÓN</a></li>
+                        <li><a href="#contacto" onclick="cerrarMenu()">SKILLS</a></li>
+                        <li><a href="#contacto" onclick="cerrarMenu()">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="camilo" class="section">
+            <div class="tituloCamilo">
+                <span class="colorRojo">JUAN CAMILO</span><span class="colorVerde"> CANO VARGAS</span>
+            </div>
+
+            <p class="motivacion">"Mi pasión por el desarrollo es la chispa que enciende la innovación"</p>
+
+            <div class="introducionCamilo">
+                BIENVENID@ A MI PORTAFOLIO COMO DESARROLLADOR.
+            </div>
+
+            <div class="descripcionCamilo">
+                Puedes ponerte en contacto conmigo escríbeme al <a href="https://api.whatsapp.com/send?phone=573008098584" target="_blank"> <i class="fab fa-whatsapp"></i>+573008098584 </a>
+            </div>
+
+            <a href="Documentos/CamiloCano-DesarrolladorWeb.pdf" download="Camilo Cano-Desarrollador Web.pdf" target="_blank" class="btn btnCV btn-principal">
+                Descarga mi CV
+            </a>
+
+            <div class="redesSociales">
+                <a href="https://github.com/canojuancamilo" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573008098584" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/cano6013" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/juan.canovargas/photos_by?locale=es_LA" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+
+        <div id="acerca-de" class="section">
+            <p class="tituloSection">SOBRE MI</p>
+            <p class="mb-30">
+                Soy un desarrollador web con más de 5 años de experiencia trabajando con .NET framework y .NET core, con gran motivación y ganas de crecer.
+                Soy una persona resolutiva y dinámica, con gran capacidad para el diagnóstico y la
+                resolución de fallas, escritura de código y diseño de interfaces.
+            </p>
+            <p class="colorRojo bold mb-30">
+                ACTUALMENTE ESTUDIO INGLES Y BUSCO AMPLIAR MI CAMPO LABORAL EN EL MUNDO DEL DESARROLLO WEB.
+            </p>
+            <p>
+                Puedes ponerte en contacto conmigo.
+            </p>
+            <p>
+                Escríbeme al <a href="https://api.whatsapp.com/send?phone=573008098584" target="_blank" class="colorVerde"> <i class="fab fa-whatsapp"></i>+573008098584 </a>
+                o enviame un correo al <span class="colorVerde">canojuancamilo99@gmail.com</span>
+            </p>
+        </div>
+
+        <div id="portafolio" class="section">
+            <p class="tituloSection">PORTAFOLIO</p>
+            <div class="contenedorProyectos">
+
+                <div class="tarjeta">
+                    <a href="https://carritocompra.somee.com/" target="_blank">
+                        <div class="contenedorImagen">
+                            <img src="Imagenes/CarritoCompra.png" />
+                        </div>
+                    </a>
+                    <div class="informacion">
+                        <p class="tituloTarjerta">CARRITO COMPRAS</p>
+                        <div class="descripcionTarjeta">
+                            Aplicacion web con modulo de login, administrativo, cliente, productos y transacciones.
+                        </div>
+                        <div class="skillsTarjeta">
+                            <div class="mb-15">
+                                <span class="elementoLenguaje" style="background-color: #7F399C;">
+                                    C#
+                                </span>
+                                <span class="elementoLenguaje" style="background-color: #FFFFFF; color: black;">
+                                    SQL
+                                </span>
+                                <span class="elementoLenguaje" style="background-color: #F5833D;">
+                                    <i class="fab fa-html5"></i> HTML
+                                </span>
+                                <span class="elementoLenguaje" style="background-color: #36AFE1;">
+                                    <i class="fab fa-css3-alt"></i> CSS
+                                </span>
+                            </div>
+                            <div class="mb-15">
+                                <span class="elementoLenguaje" style="background-color: #FFFFFF; color: black;">
+                                    JQUERY
+                                </span>
+
+                                <span class="elementoLenguaje" style="background-color: #7F399C;">
+                                    <i class="fab fa-bootstrap"></i> Boostrap
+                                </span>
+                                <span class="elementoLenguaje" style="background-color: #393939;">
+                                    <i class="fab fa-js-square"></i>  JS
+                                </span>
+                            </div>
+                            <div class="text-center">
+                                <span class="elementoLenguaje" style="background-color: white; color: black;">
+                                    .NET framework
+                                </span>
+                            </div>
+                            <div class="redesSociales" style="grid-template-columns: repeat(2,40px); justify-content: center ">
+                                <a href="https://github.com/canojuancamilo/CarritoComprasADA" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://carritocompra.somee.com/" target="_blank"><i class="fas fa-link"></i></a>
+                                <!--http://carritocompra.somee.com/
+                                prueba@yopmail.com
+                                Diego5722668-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="educacion" class="section">
+            <p class="tituloSection">EDUCACIÓN</p>
+            <div class="contenedorEducacion">
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">INGLES - A1</span>
+                    <span class="fechaEducacion"> En curso</span>
+                    <p class="LugarEducacion">
+                        LCN Idiomas
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">.NET CORE - ANGULAR</span>
+                    <span class="fechaEducacion"> En curso</span>
+                    <p class="LugarEducacion">
+                        Curso Udemy
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">SQL</span>
+                    <span class="fechaEducacion"> Abril 2021</span>
+                    <p class="LugarEducacion">
+                        Curso Udemy
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">Angular 16</span>
+                    <span class="fechaEducacion"> Enero 2021</span>
+                    <p>
+                        Curso Udemy
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">ASP.NET MVC 5</span>
+                    <span class="fechaEducacion"> Marzo 2019</span>
+                    <p>
+                        Curso Udemy
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">C# CON VISUAL STUDIO 2017</span>
+                    <span class="fechaEducacion"> Febrero 2019</span>
+                    <p>
+                        Curso Udemy
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">ANÁLISIS  Y DESARROLLO</span>
+                    <span class="fechaEducacion"> Diciembre 2017</span>
+                    <p>
+                        SENA
+                    </p>
+                </div>
+
+                <div class="sectionEducacion">
+                    <span class="nombreEducuacion">TÉCNICO EN DESARROLLO</span>
+                    <span class="fechaEducacion"> Diciembre 2015</span>
+                    <p>
+                        JUAN N. CADAVID
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="section">
+            <p class="tituloSection mb-30">SKILLS</p>
+
+            <div>
+                <p>
+                    LENGUAJES DE PROGRAMACIÓN
+                </p>
+                <div class="mb-30">
+                    <span class="elementoLenguaje" style="background-color: #7F399C;">
+                        C#
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #FFFFFF; color: black;">
+                        SQL
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #F5833D;">
+                        <i class="fab fa-html5"></i> HTML
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #36AFE1;">
+                        <i class="fab fa-css3-alt"></i> CSS
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #FFFFFF; color: black;">
+                        JQUERY
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #393939;">
+                        <i class="fab fa-js-square"></i>  JAVASCRIPT
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #0950B3;">
+                        <i class="fab fa-angular"></i> ANGULAR
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #FFFFFF; color:black;">
+                        <i class="fab fa-java"></i>  JAVA
+                    </span>
+                </div>
+                <p>
+                    FRAMEWORK Y LIBRERIAS
+                </p>
+                <div class="mb-30">
+                    <span class="elementoLenguaje" style="background-color: white; color: black;">
+                        .NET framework MVC
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #393939;">
+                        .NET Core
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #7F399C;">
+                        <i class="fab fa-bootstrap"></i> Boostrap
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: #0950B3;">
+                        Font Aweson
+                    </span>
+                </div>
+                <p>
+                    SOFTWARE Y HERRAMIENTAS
+                </p>
+                <div class="mb-30">
+                    <span class="elementoLenguaje" style="background-color: #0950B3;">
+                        VISUAL STUDIO 2019-2022
+                    </span>
+                    <span class="elementoLenguaje" style="background-color: white; color: black;">
+                        VISUAL STUDIO CODE
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div id="contacto" class="section">
+            <p class="tituloSection">CONTÁCTAME</p>
+            <p class="mb-15">
+                Email <span class="colorVerde"><i class="far fa-envelope"></i> canojuancamilo99@gmail.com</span>
+            </p>
+            <p class="mb-30">
+                Whatsapp  <a href="https://api.whatsapp.com/send?phone=573008098584" target="_blank" class="colorVerde"> <i class="fab fa-whatsapp"></i> +573008098584 </a>
+            </p>
+
+            <div class="mb-40 redesSociales">
+                <a href="https://github.com/canojuancamilo" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573008098584" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/cano6013" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/juan.canovargas/photos_by?locale=es_LA" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p class="colorRojo">
+                ESTE SITIO ESTÁ DESARROLLADO CON:
+
+            </p>
+            <span class="elementoLenguaje" style="background-color: #F5833D;">
+                <i class="fab fa-html5"></i> HTML
+            </span>
+            <span class="elementoLenguaje" style="background-color: #36AFE1;">
+                <i class="fab fa-css3-alt"></i> CSS
+            </span>
+            <span class="elementoLenguaje" style="background-color: #393939;">
+                <i class="fab fa-js-square"></i>  JAVASCRIPT
+            </span>
+            <span class="elementoLenguaje" style="background-color: #7F399C;">
+                <i class="fab fa-bootstrap"></i> Boostrap
+            </span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="Script/script.js"></script>
+</body>
+</html>

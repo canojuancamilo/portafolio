@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #251D46;
+    color: #BBC7DC;
+    font-size: 16px;
+    font-family: courier,arial,helvética;
+}
+
+.sidebar-nav {
+    background-color: #372962;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+    .sidebar-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar-nav li {
+        text-align: center;
+    }
+
+    .sidebar-nav a {
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .sidebar-nav a:hover {
+            background-color: #2A1C55;
+        }
+
+.section {
+    margin-left: 220px; /* Ajusta el margen para que no se superponga con el menú lateral */
+    padding: 70px 20px;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 870px;
+}
+
+    .section h2 {
+        color: #333; /* Cambia el color del texto de la sección */
+    }
+
+.fotoPerfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.opcionActiva {
+    color: #03FC9D !important;
+    background-color: #2A1C55;
+}
+
+.colorVerde {
+    color: #03FC9D !important;
+}
+
+.colorRojo {
+    color: #D41463 !important;
+}
+
+.tituloCamilo {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.motivacion {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 2px;
+    animation: escribir 5s steps(60, end);
+    color: #C6DB3A;
+    margin-top: 5px;
+}
+
+#contacto {
+    padding-top: 165px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+
+
+@keyframes escribir {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.introducionCamilo {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.descripcionCamilo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+    .descripcionCamilo a {
+        color: #00A884 !important;
+    }
+
+.btnCV {
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn-principal {
+    background-color: #03FC9D;
+    color: #251D46;
+}
+
+    .btn-principal:hover {
+        background-color: #08BD78 !important;
+    }
+
+    .btn-principal:active {
+        background-color: #03FC9D !important;
+    }
+
+.redesSociales {
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    gap: 15px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+    .redesSociales a {
+        background-color: #D14C74;
+        color: white !important;
+        text-align: center;
+        border-radius: 50%;
+        height: 40px;
+        padding: 5px 0px;
+        font-size: 23px;
+    }
+
+.tituloSection {
+    color: #D41463 !important;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#acerca-de {
+    padding-top: 150px;
+}
+
+.contenedorEducacion {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    gap: 50px;
+}
+
+.sectionEducacion {
+    position: relative;
+    border: 1px solid #372962;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nombreEducuacion {
+    color: #D41463 !important;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.fechaEducacion {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #03FC9D !important;
+}
+
+.elementoLenguaje {
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+}
+
+#skills {
+    padding-top: 160px;
+}
+
+#portafolio {
+    max-width: initial !important;
+}
+
+.contenedorProyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+    gap: 20px;
+}
+
+    .contenedorProyectos a {
+        text-decoration: none;
+        color: #BBC7DC;
+    }
+
+        .contenedorProyectos a:hover {
+            text-decoration: none;
+            color: #BBC7DC;
+        }
+
+    .contenedorProyectos .tarjeta {
+        border: 1px solid #776B92;
+        border-radius: 5px;
+    }
+
+        .contenedorProyectos .tarjeta .contenedorImagen {
+            height: 150px;
+        }
+
+        .contenedorProyectos .tarjeta img {
+            width: 100%;
+        }
+
+        .contenedorProyectos .tarjeta .tituloTarjerta {
+            color: #D41463 !important;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        .contenedorProyectos .tarjeta .informacion {
+            padding: 0 20px 20px;
+            margin-bottom: 5px;
+        }
+
+        .contenedorProyectos .tarjeta .descripcionTarjeta {
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 20px;
+        }
+
+        .contenedorProyectos .tarjeta .skillsTarjeta .elementoLenguaje {
+            font-size: 12px;
+            line-height: 14px;
+            margin-right: 8px;
+        }
+
+
+@media only screen and (max-width: 700px) {
+    /* Estilos para pantallas pequeñas */
+    .navbar-fixed-top {
+        background-color: #372962;
+        padding: 5px 0px;
+    }
+
+    .section {
+        margin-left: 0;
+        padding: 110px 0px;
+    }
+
+    .fotoPerfil {
+        margin-top: 20px;
+        width: 48px;
+        height: 48px;
+        margin-top: 0px;
+    }
+
+    .tituloCamilo {
+        margin-top: 0px;
+        font-size: 40px;
+    }
+
+    .motivacion {
+        margin-top: 10px;
+        word-wrap: break-word !important;
+    }
+}
