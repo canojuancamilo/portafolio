@@ -4,7 +4,7 @@ body {
     background-color: #251D46;
     color: #BBC7DC;
     font-size: 16px;
-    font-family: courier,arial,helvética;
+    font-family: 'Nunito Sans',arial,helvética;
 }
 
 .sidebar-nav {
@@ -145,7 +145,7 @@ body {
 
 .redesSociales {
     display: grid;
-    grid-template-columns: repeat(4,40px);
+    grid-template-columns: repeat(auto-fill,40px);
     gap: 15px;
     margin-top: 30px;
     align-items: center;
