@@ -279,11 +279,15 @@ body {
             margin-bottom: 20px;
         }
 
-        .contenedorProyectos .tarjeta .skillsTarjeta .elementoLenguaje {
-            font-size: 12px;
-            line-height: 33px;
-            margin-right: 8px;
+        .contenedorProyectos .tarjeta .skillsTarjeta {
+            height: 100px;
         }
+
+            .contenedorProyectos .tarjeta .skillsTarjeta .elementoLenguaje {
+                font-size: 12px;
+                line-height: 33px;
+                margin-right: 8px;
+            }
 
 
 @media only screen and (max-width: 700px) {
